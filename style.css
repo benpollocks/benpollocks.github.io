@@ -1,0 +1,106 @@
+body {
+    color: #333;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+     -webkit-font-smoothing: antialiased;
+     font-size: 18px;
+}
+a.mail{ 
+text-decoration: none;
+color: #529EB5;
+-webkit-appearance: none;
+}
+.icon {
+color: rgba(255, 255, 255, 0.5);
+padding-left: 55px;
+display:block;
+}
+.social {
+display: inline-flex;
+margin-top: 2%;
+margin-left: 38%;
+}
+h1 {
+
+    font-size: 4em;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    letter-spacing: 3px;
+    font-family: 'Ropa Sans', sans-serif;
+
+}
+p {
+margin: 0 auto;
+color: #444;
+font-weight: 400;
+text-align: center;
+width: 50%;
+line-height: 1.6;
+}
+#teaser-image {
+margin: 0 auto;
+opacity: 0.3;
+}
+
+@media screen and (max-width: 330px) {
+p {
+    width: 100%;
+    margin-left: 0%;
+}
+div#mce-success-response {
+    width: 100%;
+}
+.icon {
+padding-left: 44px !important;
+}
+.social {
+margin-left:0%;
+}
+input#mce-EMAIL { 
+margin-left: 9%;
+width: 80%;
+padding: 3%;
+}
+#teaser-image {
+    width: 100%;
+    margin-left: 0%;
+}
+input#mc-embedded-subscribe {
+margin-left: 19%;
+ margin-top: 4%;
+padding-top: 4%;
+ padding-bottom: 4%;
+}
+}
+@media screen and (min-width: 330px) and (max-width: 420px)  {
+p {
+    width: 100%;
+    margin-left: 0%;
+}
+.icon {
+padding-left: 44px !important;
+}
+.social {
+margin-left:8%;
+}
+#teaser-image {
+    width: 100%;
+    margin-left: 0%;
+}
+}
+@media screen and (min-width: 420px) and (max-width: 800px)  {
+p {
+    width: 70%;
+    margin-left: 15%;
+}
+.social
+    {
+    margin-left: 26%;
+    }
+}
+@media screen and (min-width: 800px) and (max-width: 1030px)  {
+.social {
+margin-left: 33%;
+}
+}
