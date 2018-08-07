@@ -163,6 +163,11 @@ h6, .h6 {
 td, th {
   border-radius: 0px;
 }
+.cover {
+    position: absolute;
+    width: 300px;
+    height: 150px;
+}
 
 /**
  * For modern browsers
